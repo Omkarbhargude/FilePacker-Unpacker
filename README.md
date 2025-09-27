@@ -87,5 +87,5 @@ java FilePackerUnpacker.GUI
 ## 👨‍💻 Author
 
 **Omkar Mahadev Bhargude**
-📌  [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/omkar-bhargude-609a92311/))
+📌  [LinkedIn]([(https://www.linkedin.com/in/omkar-bhargude-609a92311/)])
 
