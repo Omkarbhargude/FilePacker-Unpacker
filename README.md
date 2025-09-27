@@ -1,31 +1,74 @@
-# FilePacker-Unpacker
-This project is a java-based file utility tool that provides functionality for packing multiple files into a single archive and unpacking them back with all metadata preserved.
-To enhance security, the packed file is Encrypted, and only authorized user can Decrypt and extract the data from file.
-The project also features a graphical user Interface (GUI) for user-friendly interaction.
+# 📦 FilePacker-Unpacker
 
-## Key Feature :-
-1. File Packing :-
-   Combines multiple regular files into a single archive file.
-   Stores metadata (file name, size etc) along with the file content.
+A **Java-based file utility tool** that allows you to **pack multiple files into a single archive** and later **unpack them with all metadata preserved**.
 
-2. File Unpacking :-
-   Extracts individual files from the packed archive.
-   Restores all original metadata and file structure.
+For enhanced security, packed archives are **encrypted** and can only be **decrypted by authorized users**.
+The project also includes a **Graphical User Interface (GUI)** built with **Swing** for user-friendly interaction.
 
-3. Data Security :-
-   Built-in encryption and decryption to protect packed files data.
+---
 
-4. Graphical User Interface (GUI) :-
-   User-friendly GUI built in java (Swing)
-   Provides simple options for selectong files,packing, and unpacking.
+## ✨ Features
 
-5. Cross-Platform :-
-   Runs seamlessly on any System with java Runtime Environment (JRE).
+### 🔹 1. File Packing
 
+* Combines multiple files into a single archive.
+* Preserves metadata (file name, size, etc.) along with file content.
 
-## Learning OutComes :-
+### 🔹 2. File Unpacking
 
-Practical experience in  Java I/O Streams and File handling APIs.
-Implementation of metadata management during file operations.
-Strong understanding of encryption/decryption technique in java.
-Hands-on experience in GUI devlopment in java using Swing.
+* Extracts individual files from a packed archive.
+* Restores original metadata and file structure.
+
+### 🔹 3. Data Security
+
+* Built-in **encryption/decryption** for protecting file data.
+
+### 🔹 4. Graphical User Interface (GUI)
+
+* User-friendly GUI built using **Java Swing**.
+* Simple options for selecting files, packing, and unpacking.
+
+### 🔹 5. Cross-Platform
+
+* Runs seamlessly on any system with **Java Runtime Environment (JRE)** installed.
+
+---
+
+## 🎯 Learning Outcomes
+
+* Practical experience with **Java I/O Streams** and file handling APIs.
+* Understanding of **metadata management** during file operations.
+* Implementation of **basic encryption/decryption techniques** in Java.
+* Hands-on experience in **GUI development** with Java Swing.
+
+---
+
+## 🚀 How to Run
+
+### 1. Compile the source files
+
+```bash
+javac -d . *.java
+```
+
+### 2. Run the application
+
+```bash
+java GUI
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language**: Java
+* **GUI**: Swing
+* **Concepts Used**: File I/O, Streams, Encryption, Metadata Handling
+
+---
+
+## 📷 Screenshots (Optional)
+
+*Add GUI screenshots here for better presentation.*
+
+---
