@@ -1,74 +1,94 @@
 # 📦 FilePacker-Unpacker
 
-A **Java-based file utility tool** that allows you to **pack multiple files into a single archive** and later **unpack them with all metadata preserved**.
-
-For enhanced security, packed archives are **encrypted** and can only be **decrypted by authorized users**.
-The project also includes a **Graphical User Interface (GUI)** built with **Swing** for user-friendly interaction.
-
----
-
-## ✨ Features
-
-### 🔹 1. File Packing
-
-* Combines multiple files into a single archive.
-* Preserves metadata (file name, size, etc.) along with file content.
-
-### 🔹 2. File Unpacking
-
-* Extracts individual files from a packed archive.
-* Restores original metadata and file structure.
-
-### 🔹 3. Data Security
-
-* Built-in **encryption/decryption** for protecting file data.
-
-### 🔹 4. Graphical User Interface (GUI)
-
-* User-friendly GUI built using **Java Swing**.
-* Simple options for selecting files, packing, and unpacking.
-
-### 🔹 5. Cross-Platform
-
-* Runs seamlessly on any system with **Java Runtime Environment (JRE)** installed.
+A **Java-based file utility tool** that allows packing multiple files into a single archive and unpacking them back with all metadata preserved.
+To enhance security, the packed file is **encrypted**, and only authorized users can decrypt and extract the data.
+The project also features a **Swing-based GUI** for easy and user-friendly interaction.
 
 ---
 
-## 🎯 Learning Outcomes
+## 🚀 Features
 
-* Practical experience with **Java I/O Streams** and file handling APIs.
-* Understanding of **metadata management** during file operations.
-* Implementation of **basic encryption/decryption techniques** in Java.
-* Hands-on experience in **GUI development** with Java Swing.
+* **File Packing** – Combines multiple regular files into a single archive.
+* **File Unpacking** – Restores original files and metadata from the packed archive.
+* **Encryption** – Built-in XOR-based encryption & decryption for data security.
+* **Graphical User Interface (GUI)** – Simple Swing-based UI for packing/unpacking.
+* **Cross-Platform** – Works on any system with Java Runtime Environment (JRE).
 
 ---
 
-## 🚀 How to Run
+## 🖼 Screenshots
 
-### 1. Compile the source files
+(Add your actual screenshots inside a `screenshots/` folder)
 
-```bash
-javac -d . *.java
+![Main Window](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/PackingWindow.png?raw=true)
+![Packing Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Packing.png?raw=true)
+![Unpacking Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Unpacking.png?raw=true)
+
+---
+
+## 🛠 Tech Stack
+
+* **Java 17+**
+* **Swing (GUI)**
+* **Java I/O Streams**
+
+---
+
+## 📂 Project Structure
+
 ```
-
-### 2. Run the application
-
-```bash
-java GUI
+FilePacker-Unpacker/
+├── src/FilePackerUnpacker/
+│   ├── FilePacker.java
+│   ├── FileUnpacker.java
+│   └── GUI.java
+└── screenshots/
+    ├── main_window.png
+    ├── packing_example.png
+    └── unpacking_example.png
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Installation & Usage
 
-* **Language**: Java
-* **GUI**: Swing
-* **Concepts Used**: File I/O, Streams, Encryption, Metadata Handling
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/FilePacker-Unpacker.git
+cd FilePacker-Unpacker/src
+```
+
+### Compile & Run (Source Code)
+
+```bash
+javac FilePackerUnpacker/*.java
+java FilePackerUnpacker.GUI
+```
 
 ---
 
-## 📷 Screenshots (Optional)
+## 🎓 Learning Outcomes
 
-*Add GUI screenshots here for better presentation.*
+* Practical experience with **Java I/O Streams** and file handling.
+* Implementation of **metadata management** in file operations.
+* Understanding of **encryption/decryption** techniques in Java.
+* Hands-on experience with **Swing GUI development**.
+
+---
+
+## 🔮 Future Improvements
+
+* Add support for drag-and-drop in GUI.
+* Stronger encryption methods (AES instead of XOR).
+* Multi-threading for faster packing/unpacking.
+* Cloud integration for remote file storage.
+
+---
+
+## 👨‍💻 Author
+
+**Rutik Shivaji Thitame**
+📌  [LinkedIn](https://linkedin.com/in/yourprofile)
 
 ---
