@@ -20,8 +20,11 @@ The project also features a **Swing-based GUI** for easy and user-friendly inter
 
 (Add your actual screenshots inside a `screenshots/` folder)
 
+* Packing Window :- 
 ![Main Window](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/PackingWindow.png?raw=true)
+
 ![Packing Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Packing.png?raw=true)
+
 ![Unpacking Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Unpacking.png?raw=true)
 
 ---
