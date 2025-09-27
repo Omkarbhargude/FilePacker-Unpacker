@@ -1,7 +1,7 @@
 # 📦 FilePacker-Unpacker
 
-A **Java-based file utility tool** that allows packing multiple files into a single archive and unpacking them back with all metadata preserved.
-To enhance security, the packed file is **encrypted**, and only authorized users can decrypt and extract the data.
+A **Java-based file utility tool** that allows packing multiple files into a single archive and unpacking them back with all metadata preserved.  
+To enhance security, the packed file is **encrypted**, and only authorized users can decrypt and extract the data.  
 The project also features a **Swing-based GUI** for easy and user-friendly interaction.
 
 ---
@@ -18,14 +18,9 @@ The project also features a **Swing-based GUI** for easy and user-friendly inter
 
 ## 🖼 Screenshots
 
-(Add your actual screenshots inside a `screenshots/` folder)
-
-* Packing Window :- 
-![Main Window](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/PackingWindow.png?raw=true)
-
-![Packing Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Packing.png?raw=true)
-
-![Unpacking Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Unpacking.png?raw=true)
+| Packing Window | Packing Example | Unpacking Example |
+|----------------|----------------|-----------------|
+| ![Packing Window](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/PackingWindow.png?raw=true) | ![Packing Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Packing.png?raw=true) | ![Unpacking Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Unpacking.png?raw=true) |
 
 ---
 
@@ -91,7 +86,6 @@ java FilePackerUnpacker.GUI
 
 ## 👨‍💻 Author
 
-**Rutik Shivaji Thitame**
+**Omkar Mahadev Bhargude**
 📌  [LinkedIn](https://linkedin.com/in/yourprofile)
 
----
