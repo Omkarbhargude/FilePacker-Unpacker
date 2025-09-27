@@ -21,3 +21,11 @@ The project also features a graphical user Interface (GUI) for user-friendly int
 
 5. Cross-Platform :-
    Runs seamlessly on any System with java Runtime Environment (JRE).
+
+
+## Learning OutComes :-
+
+Practical experience in  Java I/O Streams and File handling APIs.
+Implementation of metadata management during file operations.
+Strong understanding of encryption/decryption technique in java.
+Hands-on experience in GUI devlopment in java using Swing.
