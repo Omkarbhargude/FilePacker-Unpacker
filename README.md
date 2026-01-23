@@ -18,7 +18,7 @@ The project also features a **Swing-based GUI** for easy and user-friendly inter
 
 ## 🖼 Screenshots
 
-| Packing Window | Packing Example | Unpacking Example |
+| Packing Window | Packing Activity| Unpacking Activity|
 |----------------|----------------|-----------------|
 | ![Packing Window](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/PackingWindow.png?raw=true) | ![Packing Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Packing.png?raw=true) | ![Unpacking Example](https://github.com/Omkarbhargude/FilePacker-Unpacker/blob/main/images/Unpacking.png?raw=true) |
 
@@ -53,7 +53,7 @@ FilePacker-Unpacker/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/FilePacker-Unpacker.git
+git clone https://github.com/OmkarBhargude/FilePacker-Unpacker.git
 cd FilePacker-Unpacker/src
 ```
 
