@@ -5,8 +5,6 @@
 //  Date        : 20/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////////////
-
-
 import FilePackerUnpacker.FilePacker;
 import FilePackerUnpacker.FileUnpacker;
 
@@ -143,13 +141,15 @@ class GUI {
             {
                 String DirName = DirField.getText();
                 String PackName = PackField.getText();
+                String Confirmation = fobj.getTitle();
 
                 char key1 = getCharFromField(keyField, fobj);
                 if (key1 == 0) 
                 {
                     return; // validation failed
                 }
-
+                
+                JOptionPane.showMessageDialog(fobj,"Packing Directory : "+DirName+" \nPack file Name : "+PackName);
                 FilePacker FPobj = new FilePacker(DirName, PackName, key1);
                 FPobj.PackingActivity();
 
@@ -166,6 +166,7 @@ class GUI {
                 char key1 = getCharFromField(keyField2, fobj);
                 if (key1 == 0) return; // validation failed
 
+                JOptionPane.showMessageDialog(fobj,"Unpacking file : "+PackName);
                 FileUnpacker FUobj = new FileUnpacker(PackName, key1);
                 FUobj.UnpackingActivity();
 
